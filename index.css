@@ -1,0 +1,500 @@
+body{
+    margin:auto;
+    /* background-color: yellow; */
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+/* navbar Section */
+
+.navbarSize{
+    margin-bottom: 0%;
+}
+  
+
+
+
+
+/*Search Section*/
+
+
+#search{
+    height:450px;
+    width:100%;
+    /* border:2px solid red; */
+    background-image: url('images/foodWallpaper.png');
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    /* position:absolute; */
+    /* margin-bottom: 0%; */
+    position:relative;
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius:50%;
+    margin-left:45%;
+    margin-top:7%;
+    position:absolute;
+    animation: revolve 10s 
+}
+
+@keyframes revolve{
+    0%{
+        transform:rotate(30deg);
+        margin-left:2%;
+        margin-top: -3%;
+    }
+
+    25%{
+        transform:rotate(90deg);
+        margin-left:20%;
+        margin-top:3%;
+
+    }
+
+    50%{
+        transform:rotate(180%);
+        margin-left:40%;
+        margin-top:-3%;
+    }
+
+    75%{
+        transoform:rotate(270deg);
+        margin-left: 80%;
+        margin-top:3%;
+    }
+
+    100%{
+        transform:rotate(360deg);
+        margin-left: 40%;
+        margin-top:-3%;
+    }
+}
+
+#logo > span{
+    font-size: 83px;
+    margin-left:26%;
+    margin-top:11%;
+    position:absolute;
+}
+
+#heading{
+    color:white;
+    position:absolute;
+    font-size:50px;
+    margin-top:17%;
+    margin-left:27%;
+}
+
+
+.dropdownSize{
+    position:absolute;
+    margin-top:23%;
+    margin-left:39%;
+}
+
+.dropdownIn{
+    display: inline-block;
+}
+
+/*Quick Search */
+
+.container > h2{
+    font-weight: bolder;
+}
+
+#subHeading{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.boxShadow{
+    box-shadow: 10px 20px 5px gray;
+    margin-bottom: 5%;
+    margin-top:5%;
+    
+}
+
+.boxShadow:hover{
+    transform: scale(1.1);
+
+}
+
+.caption > p{
+    font-size: 16px;
+}
+
+.caption > h3{
+    font-weight: bold;
+}
+
+/*Footer Section */
+
+footer{
+    margin-top:1%;
+    height:250px;
+    background-color: #222;
+    position: relative;
+}
+
+.footerText{
+    text-align: center;
+    font-size: large;
+}
+
+.about1{
+    text-align: right;
+    /* position: absolute; */
+    color:white;
+}
+
+.about2{
+    border-left:2px solid white;
+    border-right:2px solid white;
+    text-align: center;
+    color:white;
+    
+    /* position: absolute; */
+}
+
+.about3{
+    text-align: left;
+    /* position:absolute; */
+    color:white;
+}
+
+.social{
+    text-align:center;
+    margin-top:-1%;
+}
+
+
+@media  screen and (max-width:1600px){
+    body{
+        margin:auto;
+        /* background-color: yellow; */
+        
+    }
+
+}
+
+@media screen and (max-width:1400px){
+    body{
+        margin:auto;
+        /* background-color:olive; */
+        
+    }
+
+    /*Search Section*/
+
+
+#search{
+    height:450px;
+    width:100%;
+    /* border:2px solid red; */
+    background-image: url('images/foodWallpaper.png');
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    /* position:absolute; */
+    /* margin-bottom: 0%; */
+    position:relative;
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius:50%;
+    margin-left:45%;
+    margin-top:7%;
+    position:absolute;
+}
+
+#logo > span{
+    font-size: 83px;
+    margin-left:26%;
+    margin-top:11%;
+    position:absolute;
+}
+
+#heading{
+    color:white;
+    position:absolute;
+    font-size:50px;
+    margin-top:20%;
+    margin-left:23%;
+}
+
+
+.dropdownSize{
+    position:absolute;
+    margin-top:27%;
+    margin-left:35%;
+}
+
+.dropdownIn{
+    display: inline-block;
+}
+
+
+
+
+}
+
+@media screen and (max-width:1200px){
+    body{
+        margin:auto;
+        /* background-color:grey; */
+        
+    }
+
+    /*Search Section*/
+
+
+#search{
+    height:450px;
+    width:100%;
+    /* border:2px solid red; */
+    background-image: url('images/foodWallpaper.png');
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    /* position:absolute; */
+    /* margin-bottom: 0%; */
+    position:relative;
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius:50%;
+    margin-left:45%;
+    margin-top:7%;
+    position:absolute;
+}
+
+#logo > span{
+    font-size: 83px;
+    margin-left:26%;
+    margin-top:11%;
+    position:absolute;
+}
+
+#heading{
+    color:white;
+    position:absolute;
+    font-size:50px;
+    margin-top:22%;
+    margin-left:19%;
+}
+
+
+.dropdownSize{
+    position:absolute;
+    margin-top:30%;
+    margin-left:35%;
+}
+
+.dropdownIn{
+    display: inline-block;
+}
+
+}
+
+@media screen and (max-width:1000px){
+    body{
+        margin:auto;
+        /* background-color: aquamarine; */
+    }
+
+    /*Search Section*/
+
+
+#search{
+    height:450px;
+    width:100%;
+    /* border:2px solid red; */
+    background-image: url('images/foodWallpaper.png');
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    /* position:absolute; */
+    /* margin-bottom: 0%; */
+    position:relative;
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius:50%;
+    margin-left:45%;
+    margin-top:10%;
+    position:absolute;
+}
+
+#logo > span{
+    font-size: 83px;
+    margin-left:26%;
+    margin-top:11%;
+    position:absolute;
+}
+
+#heading{
+    color:white;
+    position:absolute;
+    font-size:43px;
+    margin-top:30%;
+    margin-left:17%;
+}
+
+
+.dropdownSize{
+    position:absolute;
+    margin-top:40%;
+    margin-left:30%;
+}
+
+.dropdownIn{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width:800px){
+    body{
+        margin:auto;
+        /* background-color: rebeccapurple; */
+    }
+
+    /*Search Section*/
+
+
+#search{
+    height:450px;
+    width:100%;
+    /* border:2px solid red; */
+    background-image: url('images/foodWallpaper.png');
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    /* position:absolute; */
+    /* margin-bottom: 0%; */
+    position:relative;
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius:50%;
+    margin-left:42%;
+    margin-top:18%;
+    position:absolute;
+}
+
+#logo > span{
+    font-size: 83px;
+    margin-left:25%;
+    margin-top:11%;
+    position:absolute;
+}
+
+#heading{
+    color:white;
+    position:absolute;
+    font-size:30px;
+    margin-top:45%;
+    margin-left:18%;
+}
+
+
+.dropdownSize{
+    position:absolute;
+    margin-top:53%;
+    margin-left:25%;
+}
+
+.dropdownIn{
+    display: inline-block;
+}
+
+}
+
+@media screen and (max-width:600px){
+    body{
+        margin:auto;
+        /* background-color: red; */
+    }
+
+    /*Search Section*/
+
+
+#search{
+    height:450px;
+    width:100%;
+    /* border:2px solid red; */
+    background-image: url('images/foodWallpaper.png');
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    /* position:absolute; */
+    /* margin-bottom: 0%; */
+    position:relative;
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius:50%;
+    margin-left:35%;
+    margin-top:18%;
+    position:absolute;
+}
+
+#logo > span{
+    font-size: 83px;
+    margin-left:25%;
+    margin-top:11%;
+    position:absolute;
+}
+
+#heading{
+    color:white;
+    position:absolute;
+    font-size:30px;
+    margin-top:50%;
+    margin-left:9%;
+}
+
+
+.dropdownSize{
+    position:absolute;
+    margin-top:60%;
+    margin-left:16%;
+}
+
+.dropdownIn{
+    display: inline-block;
+}
+
+
+
+
+}
+    
